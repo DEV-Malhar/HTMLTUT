@@ -1,0 +1,32 @@
+----------------------------------- Configure the GitHub -----------------------------
+----------------------------------------------------------------------------------------
+git config --global user.name "OWNER NAME"
+git config --global user.email "mail@owner.com"
+git config --list                                   :To dispaly all the list commands
+
+--------------------------------------------------------------------------------------
+----------------------------------- Clone and Status ---------------------------------
+git clone <copy and paste link from resporities>    :Cloning Resporities from Remote to Local Device
+git status                                          :Display the status of Code Change
+
+--------------------------------------------------------------------------------------
+----------------------------------- Add and Commit -----------------------------------
+git add <File name>                                 :to adda single File to inline commit
+git add .                                           :to add all the files to commint in remote
+
+   **Commit                                         :commit it is the record of Change to Resporities   
+    git commit -m "some message"                    :to commit
+
+------------------------------------------------------------------------------------
+----------------------------------- Push Command -----------------------------------
+git push origin main                                :it can be main or master(old version)
+
+------------------------------------------------------------------------------------
+----------------------------------- Init Command -----------------------------------
+git init                                            :it is used to create a new git Resporities Local--->Remote device
+git remote add origin<link>
+git remote -v                                       :To verify Remote
+git branch -M main                                  :To Rename branch                
+git pus -u origin main                              : if -u is used there only use "git push"
+----------------------------------------------------------------------------------------
+----------------------------------- Git WorkFlow -----------------------------------
