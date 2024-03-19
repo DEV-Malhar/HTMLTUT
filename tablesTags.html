@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Table in Html</title>
+    <style>
+        table{
+            height: 70%;
+            width: 50%;
+        }
+        table, th, td {
+            border: 1px solid black;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Table use in HTML using tr,th,td tag </h1>
+    <table>
+        <caption>Employee Details</caption> <!-- <caption> is tage used to give title to your table -->
+        <tr>                        <!-- <tr> tag stands for table row -->
+            <th>Name</th>           
+            <th>Age</th>            <!-- <th> tag stands for table heading -->
+        </tr>   
+        <tr>
+            <td>Aniket</td>             <!-- <td> tag stands for table data -->
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Komal</td>
+            <td>26</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <hr>
+    <h1>Table and Colspan and Rowspan</h1>
+    <table style="border: 5px solid;">
+        <caption>Employee Details</caption> 
+        <tr>                        
+            <th>Name</th>           
+            <th>Age</th>
+            <th>Designation</th>            
+        </tr>   
+        <tr>
+            <td>Aniket</td>             
+            <td rowspan="2">25</td>
+            <td>Developer</td>
+        </tr>
+        <tr>
+            <td>Komal</td>
+            
+            <td>Tester</td>
+        </tr>
+        <tr>
+            <td>Raghav</td>
+            <td>30</td>
+            <td>Team Lead</td>
+        </tr>
+    </table>
+</body>
+</html>
