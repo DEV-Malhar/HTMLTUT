@@ -28,5 +28,37 @@ git remote add origin<link>
 git remote -v                                       :To verify Remote
 git branch -M main                                  :To Rename branch                
 git pus -u origin main                              : if -u is used there only use "git push"
-----------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
 ----------------------------------- Git WorkFlow -----------------------------------
+Creat Repo on GitHub -->Clone Repo --> Changes --> Add --> Commit --> Push
+
+-------------------------------------------------------------------------------------
+----------------------------------- Git Branch --------------------------------------
+git branch                                          :branch is used to check the branch
+git branch -M main                                  :branch is used to Rename branch
+git checkout <Branch Name>                          :To Navigate to Branch
+git checkout -b < new Branch Name>                  :To create new Branch
+git branch -d <Branch Name>                         :To Delete the Branch
+-------------------------------------------------------------------------------------
+----------------------------------- Merge Code --------------------------------------
+git diff <branchname>                                :Compare commit branch files and more
+git merge <branchname you have to merge>             :to merge 
+-------------------------------------------------------------------------------------
+----------------------------------- Pull Command ------------------------------------
+git pull origin main                                  :used to fetch and download content a remote
+                                                        repo and immediately update the local repo
+
+-------------------------------------------------------------------------------------
+----------------------------------- Undoing Changes ---------------------------------
+Case1:Staged Changes
+    git reset <file name>                             :to make reset in single File
+    git reset                                         :to make reset in multiple
+-------------------------------------------------------------------------------------
+Case2:Committed Changes(for one commit)
+    git reset HEAD~1
+-------------------------------------------------------------------------------------
+Case3:Command Changes(for multiple commits)
+    git reset <commit hash>
+    git reset --hard <commint hash>
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
